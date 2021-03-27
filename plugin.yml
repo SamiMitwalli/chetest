@@ -1,0 +1,18 @@
+apiVersion: v2
+publisher: pg636
+name: bnf-workbench-extension
+version: 1.0.0
+type: VS Code extension
+displayName: BNF Workbench Extension
+title: BNF Workbench Extension
+description: Bnf Language Support
+icon: https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/master/dependencies/che-plugin-registry/resources/images/default.svg?sanitize=true
+repository: localhost://home/sami/Schreibtisch/bnf-workbench-extension
+category: Language
+firstPublicationDate: '2020-07-30'
+spec:
+  extensions:
+  - "{{REPOSITORY}}/bnf-workbench-extension-1.0.0.vsix"
+latestUpdateDate: "2020-07-30"
+
+
